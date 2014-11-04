@@ -1,6 +1,8 @@
 格式化json文本行
 ================
 
+![]('https://raw.githubusercontent.com/axiaoxin/json_line_format.vim/master/pic.gif')
+
 用vim打开某文本内容为每行一个json的文本文件，内容如下：
 
     {"question": "\u53d1\u5458\u5de5\u7684\u4e1c\u897f", "choices": ["\u6781\u6b63", "\u504f\u6b63", "\u4e2d\u6027", "\u504f\u8d1f", "\u6781\u8d1f", "\u975e\u8bc4\u4ef7"]}
