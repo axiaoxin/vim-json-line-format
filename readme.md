@@ -1,7 +1,7 @@
 格式化json文本行
 ================
 
-![]('https://raw.githubusercontent.com/axiaoxin/json_line_format.vim/master/pic.gif')
+![]('pic.gif')
 
 用vim打开某文本内容为每行一个json的文本文件，内容如下：
 
