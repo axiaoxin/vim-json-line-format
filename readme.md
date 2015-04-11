@@ -14,7 +14,7 @@ if你用vim打开某文本内容为每行一个json的文本文件，内容如�
     {"question": "\u6613\u8fc5\u8fd9\u6837\u6ca1\u6cd5\u6bd4", "choices": ["\u6781\u6b63", "\u504f\u6b63", "\u4e2d\u6027", "\u504f\u8d1f", "\u6781\u8d1f", "\u975e\u8bc4\u4ef7"]}
     {"question": "\u5f88\u591a\u4e1c\u897f\u5df2\u7ecf\u6bd4", "choices": ["\u6781\u6b63", "\u504f\u6b63", "\u4e2d\u6027", "\u504f\u8d1f", "\u6781\u8d1f", "\u975e\u8bc4\u4ef7"]}
 
-由于编码和没有换行的问题不便于查看，那么，系好安全带，这个插件可以让你fly
+由于编码和没有换行的问题不便于查看，或许说根本他妈的就没法看！那么！请立刻检查系好您的安全带，因为这个插件可以让你fly！
 
 ![](pic.gif)
 
@@ -26,6 +26,8 @@ if你用vim打开某文本内容为每行一个json的文本文件，内容如�
 2. 如果是使用Vundle，那么在你的`.vimrc`中的plugin管理中添加
 
 `Plugin 'axiaoxin/vim-json-line-format'`
+
+然后在VIM中`:PluginInstall`你懂的哟
 
 ###用法
 
