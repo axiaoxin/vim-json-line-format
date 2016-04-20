@@ -26,7 +26,7 @@ Second way: if you use Vundle, add `Plugin 'axiaoxin/vim-json-line-format'` in y
 
 ###Usage
 
-Open a file in `Normal mode`, move your cursor on the json line, use `<leader>jp` to show formated json by print it, use `<leader>jw` could change the text to formatted json.
+Open a file in `Normal mode`, move your cursor on the json line, use `<leader>pj` to show formated json by print it, use `<leader>wj` could change the text to formatted json.
 
 Invalid json can not format!
 

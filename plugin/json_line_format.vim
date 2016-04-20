@@ -27,5 +27,5 @@ def json_line_format_write():
         print e
 EOF
 
-nnoremap <leader>jw :python json_line_format_write()<CR>
-nnoremap <leader>jp :python json_line_format_print()<CR>
+nnoremap <leader>wj :python json_line_format_write()<CR>
+nnoremap <leader>pj :python json_line_format_print()<CR>
