@@ -1,4 +1,14 @@
-python << EOF
+if !has("python") && !has("python3")
+    echomsg "json-line-format need python support!"
+endif
+
+let  pyEOF = "python << EOF"
+if !has("python")
+    let  pyEOF = "python3 << EOF"
+endif
+
+exec pyEOF
+
 import vim
 import json
 from collections import OrderedDict
@@ -9,9 +19,9 @@ def json_line_format_print():
         formatted = json.dumps(
                         json.loads(vim.current.line, object_pairs_hook=OrderedDict),
                         ensure_ascii=False, indent=4)
-        print formatted
+        print(formatted)
     except Exception as e:
-        print e
+        print(e)
 
 def json_line_format_write():
     line_num = vim.current.window.cursor[0]
@@ -24,8 +34,13 @@ def json_line_format_write():
             buff.append(line, line_num+i)
         vim.command('normal dd')
     except Exception as e:
-        print e
+        print(e)
 EOF
 
-nnoremap <leader>wj :python json_line_format_write()<CR>
-nnoremap <leader>pj :python json_line_format_print()<CR>
+if has("python")
+    nnoremap <leader>wj :python json_line_format_write()<CR>
+    nnoremap <leader>pj :python json_line_format_print()<CR>
+else
+    nnoremap <leader>wj :python3 json_line_format_write()<CR>
+    nnoremap <leader>pj :python3 json_line_format_print()<CR>
+endif
