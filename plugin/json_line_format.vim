@@ -38,9 +38,9 @@ def json_line_format_write():
 EOF
 
 if has("python")
-    nnoremap <leader>wj :python json_line_format_write()<CR>
-    nnoremap <leader>pj :python json_line_format_print()<CR>
+    command JsonLineFormatWrite :python json_line_format_write()<CR>
+    command JsonLineFormatPrint :python json_line_format_print()<CR>
 else
-    nnoremap <leader>wj :python3 json_line_format_write()<CR>
-    nnoremap <leader>pj :python3 json_line_format_print()<CR>
+    command JsonLineFormatWrite :python3 json_line_format_write()<CR>
+    command JsonLineFormatPrint :python3 json_line_format_print()<CR>
 endif
