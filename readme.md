@@ -33,3 +33,7 @@ Open a file in `Normal mode`, move your cursor on the json line, use `<leader>pj
 Invalid json can not be formatted!
 
 Link: <https://github.com/axiaoxin/vim-json-line-format>
+
+# Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/axiaoxin/mbti.svg)](https://starchart.cc/axiaoxin/mbti)
