@@ -36,4 +36,4 @@ Link: <https://github.com/axiaoxin/vim-json-line-format>
 
 # Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/axiaoxin/mbti.svg)](https://starchart.cc/axiaoxin/mbti)
+[![Stargazers over time](https://starchart.cc/axiaoxin/vim-json-line-format.svg)](https://starchart.cc/axiaoxin/vim-json-line-format)
