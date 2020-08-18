@@ -1,4 +1,4 @@
-format json text line)
+Format json text line in VIM
 ================
 
          _ ____   ___  _   _     _     ___ _   _ _____    _____ ___  ____  __  __    _  _____
@@ -18,16 +18,18 @@ These json lines are inconvenient for human to read it, because of formating and
 
 ![](pic.gif)
 
-###Install
+### Install
 
-First Way: Copy `plugin/json_line_format.vim` to your `.vim/plugin`
+If you use Plug, add `Plug 'axiaoxin/vim-json-line-format'` in your `.vimrc`, then use `:PlugInstall` to install this plugin.
 
-Second way: if you use Vundle, add `Plugin 'axiaoxin/vim-json-line-format'` in your `.vimrc`, then use `:PluginInstall` to install this plugin)
+Elseif you use Vundle, add `Plugin 'axiaoxin/vim-json-line-format'` in your `.vimrc`, then use `:PluginInstall` to install this plugin.
 
-###Usage
+Else copy `plugin/json_line_format.vim` to your `.vim/plugin` Manually.
+
+### Usage
 
 Open a file in `Normal mode`, move your cursor on the json line, use `<leader>pj` to show formated json by print it, use `<leader>wj` could change the text to formatted json.
 
-Invalid json can not format!
+Invalid json can not be formatted!
 
 Link: <https://github.com/axiaoxin/vim-json-line-format>
